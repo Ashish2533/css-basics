@@ -1,0 +1,23 @@
+/* #html{
+    background-color: yellowgreen;
+} */
+
+/* Inheritance Concept */
+
+body {
+  color: yellowgreen;
+}
+
+ul {
+  font-size: 32px;
+  font-weight: 900;
+  font-family: cursive;
+}
+
+/* In some cases inheritance will not work just like Submit Button, the font-family of submit button is arial and it didn't get changed to Cursive */
+
+button{
+    font-family: inherit;
+}
+
+/* We can change through like above code using inherit and it will chage it */

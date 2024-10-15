@@ -1,0 +1,42 @@
+
+/* When we use many Id or class then Specificity of selector got increased and it prints  */
+/* #html#html{
+    background-color: deeppink;
+} */
+
+/* #html{
+    background-color: deeppink;
+}
+
+
+#html{
+    background-color: darkmagenta;
+}
+
+
+.html{
+    background-color: blueviolet;
+}
+
+li {
+  background-color: green;
+  color: red;
+}
+
+li {
+  background-color: orange;
+}
+
+li {
+    background-color: aqua;
+  } */
+
+/* Cascade in CSS: It overwrites the background properties, In CSS the styles you write in below or down they have more high prefrence */
+
+/* What is Specificity?: The element who have high number of specificity has the higher prefrence whereever you write  */
+
+/* .html{
+    background-color: crimson;
+} */
+
+/* Id >>> Class >>>>> li in Selector Specificity */
