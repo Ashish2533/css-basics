@@ -1,0 +1,58 @@
+/* . is a Class Selector */
+
+li {
+  font-weight: 700;
+}
+
+.html {
+  color: #dd4b25;
+}
+
+.css {
+  color: #2862e9;
+}
+
+.javascript {
+  color: #efd81d;
+}
+
+.react {
+  color: #00d5f7;
+}
+
+.tailwind {
+  color: #36b7f0;
+}
+
+/* # is a ID Selector */
+
+#html {
+  font-size: 32px;
+}
+
+/* Class & ID are Attribute Selector */
+
+/* [] is a Attribute Selector */
+
+[class] {
+  background-color: green;
+}
+
+/* I have written anurag in P tag so in Bracket if I write it will treat as a Attribute Selector */
+[anurag="procodrr"] {
+  background-color: aqua;
+}
+
+[anurag="coder"] {
+    background-color: #efd81d;
+}
+
+/* In 90% of cases we use Class Selector */
+
+ul p{
+    background-color: blueviolet;
+}
+
+h1:hover{
+    color: blue;
+}
